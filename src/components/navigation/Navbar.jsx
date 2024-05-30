@@ -12,7 +12,7 @@ import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import ButtonTabs from './Buttons';
-import Logo from './../../assets/logo.svg';
+// import Logo from './../../assets/logo.svg';
 
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -125,7 +125,7 @@ const Navbar = () => {
                   m: 1,
                 }}
               >
-                <img src={Logo} className="logo react" alt="React logo" />
+{/*                 <img src={Logo} className="logo react" alt="React logo" /> */}
               </Box>
 
               <Box
